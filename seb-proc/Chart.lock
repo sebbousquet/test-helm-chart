@@ -1,0 +1,6 @@
+dependencies:
+- name: seb-services
+  repository: https://sebbousquet.github.io/test-helm-chart/
+  version: 0.2.0
+digest: sha256:e37caf38efbb06a602131600711e7f67fc166699e45a1e642f4034de5706e7b5
+generated: "2026-02-19T18:06:00.56512+01:00"
