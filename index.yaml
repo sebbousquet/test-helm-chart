@@ -11,12 +11,27 @@ entries:
     urls:
     - https://raw.githubusercontent.com/sebbousquet/test-helm-chart/gh-pages/helm/seb-front-0.1.0.tgz
     version: 0.1.0
+  seb-proc:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-02-19T17:08:27.286722993Z"
+    dependencies:
+    - name: seb-services
+      repository: https://sebbousquet.github.io/test-helm-chart/
+      version: 0.2.0
+    description: A Helm chart for Kubernetes
+    digest: 11cc7e7080e99d0d66a28081af904c879dd7d49756bb46c157cd518635cdfd9f
+    name: seb-proc
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/sebbousquet/test-helm-chart/gh-pages/helm/seb-proc-0.1.0.tgz
+    version: 0.1.0
   seb-services:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-02-19T16:05:52.076128909Z"
+    created: "2026-02-19T17:08:27.287267921Z"
     description: A Helm chart for Kubernetes
-    digest: c79efe190907c7663354ebf5f67ca8046ab4ee07c4e59435477299f0f88da30c
+    digest: 7e741e9b3da7772cc7304ffaf2651d9135911130d44f716a7a9c4d4ef62d7f0d
     name: seb-services
     type: application
     urls:
@@ -32,4 +47,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/sebbousquet/test-helm-chart/gh-pages/helm/seb-services-0.1.0.tgz
     version: 0.1.0
-generated: "2026-02-19T16:10:09.771151088Z"
+generated: "2026-02-19T17:08:27.285015769Z"
