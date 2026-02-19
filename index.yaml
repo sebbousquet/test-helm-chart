@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  seb-services:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-02-19T16:05:52.076128909Z"
+    description: A Helm chart for Kubernetes
+    digest: c79efe190907c7663354ebf5f67ca8046ab4ee07c4e59435477299f0f88da30c
+    name: seb-services
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/sebbousquet/test-helm-chart/gh-pages/helm/seb-services-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-02-19T16:05:52.075695595Z"
+    description: A Helm chart for Kubernetes
+    digest: 29e5e17af49395353a787002290f7c46d307918d08f01b67e82bea55362de460
+    name: seb-services
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/sebbousquet/test-helm-chart/gh-pages/helm/seb-services-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-02-19T16:05:52.075074944Z"
